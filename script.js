@@ -8,10 +8,12 @@ let numberOfFilms = prompt ("Сколько фильмов вы уже посм�
         genres: [],
         privat: false
     },
-    lastMovie = prompt ("Один из последних фильмов?", ""),  
-    raiting = prompt ("На сколько оцените его?", "");
+    lastMovie1 = prompt ("Один из последних фильмов?", ""),  
+    raiting1 = prompt ("На сколько оцените его?", ""),
+    lastMovie2 = prompt ("Один из последних фильмов?", ""),  
+    raiting2 = prompt ("На сколько оцените его?", "");
 
-    personalMovieDB.movies[lastmovie] = lastMovie;
-    personalMovieDB.movies[raiting] = lastMovie;
+    personalMovieDB.movies[lastMovie1] = raiting1;
+    personalMovieDB.movies[lastMovie2] = raiting2;
 
 console.log(personalMovieDB);
